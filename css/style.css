@@ -1,5 +1,14 @@
 @import url('https://fonts.googleapis.com/css?family=Playfair+Display:400,700,900');
 
+body {
+  color: white;
+  font-family: 'Playfair Display', serif;
+}
+
+p {
+  font-size: 3em;
+}
+
 header {
   position: fixed;
   top: 0;
@@ -17,19 +26,20 @@ header span {
 }
 
 .logo {
-  font-family: 'Playfair Display', serif;
-  font-weight: 900;
+  font-weight: 700;
   font-size: 2em;
   color: #8d817b;
+  letter-spacing: 1px;
 }
 
 .section {
   outline: 5em solid #fff;
   outline-offset: -5em;
-  padding: 0 7em;
+  padding: 0 10em;
 }
 .one {
-  background-color: blue;
+  background: url(/img/Fabrique-min.jpg);
+  background-size: cover;
 }
 
 .two {
