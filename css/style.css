@@ -19,6 +19,7 @@ header {
   justify-content: flex-end;
   align-items: center;
   background-color: #fff;
+  z-index: 999;
 }
 
 header span {
