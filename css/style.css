@@ -206,6 +206,11 @@ dt {
   background-color: #000;
 }
 
+.social {
+  padding: 10em 1em 1em 1em;
+  background-color: #fff;
+}
+
 
 /* Custom Scrollbar
    ========================================================================== */
