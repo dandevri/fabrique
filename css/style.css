@@ -110,6 +110,12 @@ address {
   color: #f5ea04;
 }
 
+.about strong {
+  background-color: transparent;
+  color: #f5ea04;
+  text-decoration: underline;
+}
+
 /* Section #3 - Work
    ========================================================================== */
 
