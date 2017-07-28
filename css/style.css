@@ -131,6 +131,14 @@ li {
   flex-direction: column;
 }
 
+.meta a {
+  color: #fff;
+}
+
+svg {
+  width: 8em;
+}
+
 /* Section #4 - Vaardigheden
    ========================================================================== */
 
