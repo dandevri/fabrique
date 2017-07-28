@@ -95,7 +95,8 @@ address {
    ========================================================================== */
 
 .about {
-  background-color: #a29791;
+  background: url(/img/Fabrique_about-min.jpg);
+  background-size: cover;
   color: #f5ea04;
 }
 
