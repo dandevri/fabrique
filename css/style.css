@@ -131,6 +131,36 @@ dt {
   padding: 0.2em 1em;
 }
 
+/* Section #5 - Publicaties
+   ========================================================================== */
+.publications {
+  background-color: #f5ea04;
+  color: #8d817b;
+}
+
+.news, .nominations {
+  font-size: 1.3em;
+  flex-direction: column;
+  margin-top: 1em;
+}
+
+.news li, .nominations li {
+  background-color: transparent;
+  border-bottom: grey solid 1px;
+  color: #8d817b;
+}
+
+/* Section #7 - Contact
+   ========================================================================== */
+.intern {
+  background-color: #000;
+}
+
+/* Section #7 - Contact
+   ========================================================================== */
+.contact {
+  background-color: #000;
+}
 
 
 /* Custom Scrollbar
