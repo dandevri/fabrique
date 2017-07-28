@@ -11,7 +11,6 @@ li, ul, ol {
 /* General Styles
    ========================================================================== */
 
-
 body {
   color: white;
   font-family: 'Playfair Display', serif;
@@ -124,6 +123,14 @@ li {
   flex-direction: column;
 }
 
+.meta {
+  background-color: #807670;
+  padding: 0.5em;
+  margin: 1em 0;
+  display: flex;
+  flex-direction: column;
+}
+
 /* Section #4 - Vaardigheden
    ========================================================================== */
 
@@ -132,7 +139,7 @@ li {
   background-color: #a29791;
 }
 
-svg {
+.tooling svg {
   width: 1.5em;
   fill: #fff;
 }
