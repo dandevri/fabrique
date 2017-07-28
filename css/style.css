@@ -3,12 +3,10 @@
 /* Reset styles
    ========================================================================== */
 
-ul, ol {
-  list-style-type: none;
+li, ul, ol {
   margin: 0;
   padding: 0;
 }
-
 /* General Styles
    ========================================================================== */
 
@@ -65,9 +63,11 @@ header span {
   padding: 0 10em;
 }
 
-strong {
-  font-weight: 900;
+strong, time {
+  font-weight: 700;
+  text-decoration: underline;
 }
+
 
 
 /* Section #1 - Intro
@@ -167,10 +167,17 @@ dt {
   color: #8d817b;
 }
 
-/* Section #7 - Contact
+/* Section #6 - Stage
    ========================================================================== */
 .intern {
   background-color: #000;
+}
+
+.stage {
+  background-color: transparent;
+  font-size: 1.2em;
+  padding: 1em 0;
+  list-style-type: circle;
 }
 
 /* Section #7 - Contact
