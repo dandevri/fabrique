@@ -12,7 +12,12 @@ body {
 }
 
 p {
-  font-size: 3em;
+  font-size: 1.5em;
+  max-width: 60%;
+}
+
+a {
+  color: #a29791;
 }
 
 header {
@@ -46,7 +51,7 @@ header span {
 }
 
 
-/* Section - Intro
+/* Section #1 - Intro
    ========================================================================== */
 
 .intro {
@@ -59,19 +64,19 @@ address {
   color: #a29791;
 }
 
-a {
-  color: #a29791;
-}
-
-/* Section - About
+/* Section #2 - About
    ========================================================================== */
 
 .about {
-  background-color: yellow;
+  background-color: #a29791;
+  color: #f5ea04;
 }
 
+/* Section #3 - Work
+   ========================================================================== */
+
 .work {
-  background-color: pink;
+  background-color: #f5ea04;
 }
 
 .tools {
