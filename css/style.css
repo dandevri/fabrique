@@ -87,10 +87,10 @@ address {
   color: #8d817b;
 }
 
-ul {
+ul  {
   font-size: 1.5em;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
 }
 
 li {
@@ -119,6 +119,16 @@ svg {
 .tool {
   background-color: #887b74;
   margin: 1em 1em 0 0;
+}
+
+dl {
+  display: flex;
+  justify-content: space-between;
+}
+
+dt {
+  background-color: #887b74;
+  padding: 0.2em 1em;
 }
 
 
