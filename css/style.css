@@ -1,3 +1,6 @@
+/* Reset styles
+   ========================================================================== */
+
 /* General Styles
    ========================================================================== */
 
@@ -49,6 +52,15 @@ header span {
 .intro {
   background: url(/img/Fabrique-min.jpg);
   background-size: cover;
+}
+
+address {
+  font-style: normal;
+  color: #a29791;
+}
+
+a {
+  color: #a29791;
 }
 
 /* Section - About
