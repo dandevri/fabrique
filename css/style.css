@@ -67,6 +67,7 @@ header span {
   padding: 0 10em;
 }
 
+
 strong {
   font-weight: 700;
   background: #fff;
@@ -248,4 +249,27 @@ body::-webkit-scrollbar {
 
 body::-webkit-scrollbar-thumb {
   background-color: #f5ea04;
+}
+
+/* Intro animation
+   ========================================================================== */
+
+ @keyframes fadeInUp {
+   from {
+     opacity: 0;
+     transform: translate3d(0, 100%, 0);
+   }
+
+   to {
+     opacity: 1;
+     transform: none;
+   }
+ }
+
+.title, address, h1 {
+  animation: fadeInUp 2000ms;
+}
+
+span {
+  animation: fadeInUp 1000ms;
 }
