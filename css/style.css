@@ -8,6 +8,10 @@ li, ul, ol {
   padding: 0;
 }
 
+li a {
+  display: block;
+}
+
 /* General Styles
    ========================================================================== */
 
@@ -63,8 +67,14 @@ header span {
   padding: 0 10em;
 }
 
-strong, time {
+strong {
   font-weight: 700;
+  background: #fff;
+  color: #545454;
+  padding: 0 0.3em;
+}
+
+time {
   text-decoration: underline;
 }
 
@@ -200,6 +210,11 @@ dt {
   padding: 0.2em 0;
 }
 
+.stage strong {
+  text-decoration: underline;
+  background-color: transparent;
+}
+
 /* Section #7 - Contact
    ========================================================================== */
 .contact {
@@ -207,10 +222,16 @@ dt {
 }
 
 .social {
-  padding: 10em 1em 1em 1em;
   background-color: #fff;
+  margin: 2em 0;
+  margin-right: 2em;
 }
 
+.social svg {
+  width: 2em;
+  opacity: 0.5;
+  margin: 1em 0;
+}
 
 /* Custom Scrollbar
    ========================================================================== */
