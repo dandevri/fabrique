@@ -7,6 +7,7 @@ li, ul, ol {
   margin: 0;
   padding: 0;
 }
+
 /* General Styles
    ========================================================================== */
 
@@ -17,7 +18,7 @@ body {
 }
 
 p {
-  font-size: 1.5em;
+  font-size: 1.2em;
   max-width: 60%;
 }
 
@@ -68,7 +69,10 @@ strong, time {
   text-decoration: underline;
 }
 
-
+hr {
+  margin: 2em 0;
+  border-color: #545454;
+}
 
 /* Section #1 - Intro
    ========================================================================== */
@@ -105,7 +109,7 @@ address {
 }
 
 ul  {
-  font-size: 1.5em;
+  font-size: 1em;
   display: flex;
   justify-content: space-between;
 }
@@ -129,7 +133,7 @@ li {
 }
 
 svg {
-  width: 2em;
+  width: 1.5em;
   fill: #fff;
 }
 
@@ -163,8 +167,8 @@ dt {
 
 .news li, .nominations li {
   background-color: transparent;
-  border-bottom: grey solid 1px;
   color: #8d817b;
+  padding-left: 0;
 }
 
 /* Section #6 - Stage
@@ -176,8 +180,8 @@ dt {
 .stage {
   background-color: transparent;
   font-size: 1.2em;
-  padding: 1em 0;
   list-style-type: circle;
+  padding: 0.2em 0;
 }
 
 /* Section #7 - Contact
