@@ -1,3 +1,6 @@
+/* General Styles
+   ========================================================================== */
+
 @import url('https://fonts.googleapis.com/css?family=Playfair+Display:400,700,900');
 
 body {
@@ -38,22 +41,34 @@ header span {
   outline-offset: -5em;
   padding: 0 10em;
 }
-.one {
+
+
+/* Section - Intro
+   ========================================================================== */
+
+.intro {
   background: url(/img/Fabrique-min.jpg);
   background-size: cover;
 }
 
-.two {
+/* Section - About
+   ========================================================================== */
+
+.about {
   background-color: yellow;
 }
 
-.three {
+.work {
   background-color: pink;
 }
 
-.four {
+.tools {
   background-color: orange;
 }
+
+
+/* Custom Scrollbar
+   ========================================================================== */
 
 body::-webkit-scrollbar {
     width: 1em;
