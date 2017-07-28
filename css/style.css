@@ -23,6 +23,14 @@ p {
   max-width: 60%;
 }
 
+h2 {
+  font-size: 2.5em;
+}
+
+h1 {
+  font-weight: 400;
+}
+
 a {
   color: #a29791;
 }
@@ -57,6 +65,10 @@ header span {
   padding: 0 10em;
 }
 
+strong {
+  font-weight: 900;
+}
+
 
 /* Section #1 - Intro
    ========================================================================== */
@@ -69,6 +81,11 @@ header span {
 address {
   font-style: normal;
   color: #a29791;
+}
+
+.title {
+  font-size: 3em;
+  font-weight: 900;
 }
 
 /* Section #2 - About
