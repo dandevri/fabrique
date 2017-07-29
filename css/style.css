@@ -124,6 +124,9 @@ address {
   text-decoration: underline;
 }
 
+.about a {
+  color: #f5ea04;
+}
 /* Section #3 - Work
    ========================================================================== */
 
