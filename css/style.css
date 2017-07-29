@@ -6,6 +6,7 @@
 li, ul, ol {
   margin: 0;
   padding: 0;
+  line-height: 1.7;
 }
 
 li a {
@@ -23,6 +24,7 @@ body {
 p {
   font-size: 1.2em;
   max-width: 60%;
+  line-height: 1.8;
 }
 
 h2 {
