@@ -35,6 +35,7 @@ h1 {
 
 a {
   color: #a29791;
+  transition: 250ms;
 }
 
 header {
@@ -82,6 +83,10 @@ time {
 hr {
   margin: 2em 0;
   border-color: #545454;
+}
+
+a:hover {
+  opacity: 0.8;
 }
 
 /* Section #1 - Intro
@@ -229,9 +234,29 @@ dt {
 }
 
 .social {
-  background-color: #fff;
+  background-color: transparent;
+  border: 0.2em solid #fff;
   margin: 2em 0;
   margin-right: 2em;
+  transition: 250ms;
+}
+
+.social:hover {
+  background-color: #fff;
+}
+
+.social a {
+  color: #fff;
+}
+
+.social svg {
+  fill: #fff;
+}
+
+
+.social:hover a, .social:hover svg {
+  color: #8d817b;
+  fill: #8d817b;
 }
 
 .social svg {
