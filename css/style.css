@@ -182,12 +182,22 @@ svg {
 .tool {
   background-color: #887b74;
   margin: 1em 1em 0 0;
+  transition: 250ms;
 }
 
 dl {
   display: flex;
   justify-content: space-between;
 }
+
+dt {
+  transition: 250ms;
+}
+
+dt:hover, .tool:hover {
+  background-color: #776d67;
+}
+
 
 dt {
   background-color: #887b74;
