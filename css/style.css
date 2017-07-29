@@ -146,16 +146,17 @@ li {
   flex-direction: column;
 }
 
-.meta {
-  background-color: #807670;
+.meta a {
+  color: #f5ea04;
+  border: 0.1em solid #f5ea04;
   padding: 0.5em;
-  margin: 1em 0;
-  display: flex;
-  flex-direction: column;
+  margin-top: 1em;
+  text-decoration: none;
 }
 
-.meta a {
-  color: #fff;
+.meta a:hover {
+  background-color: #f5ea04;
+  color: #a29791;
 }
 
 svg {
