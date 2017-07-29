@@ -128,7 +128,8 @@ address {
    ========================================================================== */
 
 .work {
-  background-color: #f5ea04;
+  background: url(/img/Fabrique_work-min.jpg);
+  background-size: cover;
   color: #8d817b;
 }
 
